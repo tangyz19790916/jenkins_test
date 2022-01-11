@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <!-- 微服务根目录，组织其他目录：
+  parent - 依赖包的版本管理。
+  templateProj - 某一个模块的接口定义与功能实现，如果有多个模块，并列。
+  main - Web服务工程。
+  sample - 一个完整示例（实际项目创建的工程应删除这个目录）
+  -->
+  <groupId>com.southgis.ibase.tempXxx</groupId>
+  <artifactId>templateApp</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>templateProj</module>
+  	<module>main</module>
+  </modules>
+</project>
